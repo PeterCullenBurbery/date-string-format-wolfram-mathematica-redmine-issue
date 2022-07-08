@@ -10,16 +10,30 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2625,         81]
-NotebookOptionsPosition[      1930,         60]
-NotebookOutlinePosition[      2331,         76]
-CellTagsIndexPosition[      2288,         73]
+NotebookDataLength[     11481,        325]
+NotebookOptionsPosition[      8157,        253]
+NotebookOutlinePosition[      8558,        269]
+CellTagsIndexPosition[      8515,        266]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
+Cell["Instant time", "Section",
+ CellChangeTimes->{{3.866288527367347*^9, 
+  3.8662885296972275`*^9}},ExpressionUUID->"332e2505-8066-4cba-be1f-\
+e4aa080942d1"],
+
+Cell[CellGroupData[{
+
+Cell["Default $DateStringFormat DateTimeShort", "Subsection",
+ CellChangeTimes->{{3.8662885331730795`*^9, 
+  3.8662885587954006`*^9}},ExpressionUUID->"02f38333-29d3-4ffc-a12d-\
+5c34d1b30f37"],
+
+Cell[CellGroupData[{
+
 Cell[BoxData["Now"], "Input",
  CellChangeTimes->{{3.8662884796616735`*^9, 3.8662884800034847`*^9}},
  CellLabel->"In[19]:=",ExpressionUUID->"a03dbef8-be44-408e-a3a2-8f0f7899c195"],
@@ -57,6 +71,185 @@ Cell[BoxData[
  CellChangeTimes->{3.866288485151163*^9},
  CellLabel->"Out[20]=",ExpressionUUID->"cc718f0c-2f3e-404e-82d2-f12c19a98753"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Change $DateStringFormat to DateTime", "Subsection",
+ CellChangeTimes->{{3.866288539271177*^9, 
+  3.8662885518651505`*^9}},ExpressionUUID->"b0159a8e-e724-4c29-9ead-\
+c54d4dd9ffec"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$DateStringFormat", "=", "\"\<DateTime\>\""}]], "Input",
+ CellChangeTimes->{{3.8662885158581247`*^9, 3.8662885196365404`*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"a5407c9c-ea0f-4b9f-8cb7-0dd12890b016"],
+
+Cell[BoxData["\<\"DateTime\"\>"], "Output",
+ CellChangeTimes->{3.866288519942399*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"2b8eed7e-8d06-4a63-bf20-75c28e50c0d8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["Now"], "Input",
+ CellChangeTimes->{{3.8662885207232647`*^9, 3.8662885210249414`*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"7f52d744-5d75-426b-8001-a9000f4dacd6"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\"Friday 8 July 2022 13:02:01\"", 
+     StyleBox[
+      RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+        StyleBox[
+         RowBox[{"-", "4"}], NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}], 
+   RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2022", ",", "7", ",", "8", ",", "13", ",", "2", ",", 
+           "1.291885`7.86379884212842"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", 
+       RowBox[{"-", "4.`"}]}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.866288521295885*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"f4d9edee-b770-4bc0-a855-6149d538d6a0"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Day Granularity", "Section",
+ CellChangeTimes->{{3.8662885689690194`*^9, 
+  3.866288573516571*^9}},ExpressionUUID->"c599eb5f-184a-4def-a6b4-\
+b5bf55f8c7dc"],
+
+Cell[CellGroupData[{
+
+Cell["Default $DateStringFormat", "Subsection",
+ CellChangeTimes->{{3.8662885756801624`*^9, 
+  3.866288586638187*^9}},ExpressionUUID->"8e3f7831-8f7a-4fcd-9483-\
+d96881268dec"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$DateStringFormat", "=", "\"\<DateTimeShort\>\""}]], "Input",
+ CellChangeTimes->{{3.86628858933597*^9, 3.8662885967250824`*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"68a01d67-9d94-4b28-8187-653fb115f8fd"],
+
+Cell[BoxData["\<\"DateTimeShort\"\>"], "Output",
+ CellChangeTimes->{3.8662885971496215`*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"3940783e-73fc-4baa-842c-829b298f9451"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["Today"], "Input",
+ CellChangeTimes->{{3.8662885990031037`*^9, 3.8662885994848804`*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"e0e0e302-1d36-4ec8-a7e0-605704d6c53f"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\"Fri 8 Jul 2022\""}], 
+   RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{"2022", ",", "7", ",", "8"}], "}"}], ",", "\"Day\""}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.8662885997682266`*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"09c6da70-2af0-472f-9935-ee3d3a8dd95d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Change $DateStringFormat to DateTime", "Subsection",
+ CellChangeTimes->{{3.86628860314053*^9, 
+  3.8662886110753703`*^9}},ExpressionUUID->"533e28b6-aa16-4584-9205-\
+3931b420fb24"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$DateStringFormat", "=", "\"\<DateTime\>\""}]], "Input",
+ CellChangeTimes->{{3.8662886122406607`*^9, 3.866288615490759*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"9230342f-a65f-4d12-a682-9938d7cf9487"],
+
+Cell[BoxData["\<\"DateTime\"\>"], "Output",
+ CellChangeTimes->{3.86628861589207*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"88ab637f-f0bc-4d24-b7dc-77c579bf49e0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["Today"], "Input",
+ CellChangeTimes->{{3.86628861671937*^9, 3.8662886175949154`*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"5beb59b1-a61d-4459-a0bb-3bedf3404578"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\"Fri 8 Jul 2022\""}], 
+   RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{"2022", ",", "7", ",", "8"}], "}"}], ",", "\"Day\""}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.866288617905511*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"1a681899-338e-46ed-aadf-069c755016b1"]
+}, Open  ]],
+
+Cell["This should be Friday 8 July 2022.", "Text",
+ CellChangeTimes->{{3.866288623951332*^9, 
+  3.866288632968608*^9}},ExpressionUUID->"02baf566-3fbd-438a-8f1e-\
+2cdd58019ec4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DateString", "[", 
+  RowBox[{"Today", ",", 
+   RowBox[{"{", "\"\<Date\>\"", "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8662886341895285`*^9, 3.8662886703384786`*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"2c3cea58-cf58-4bca-974c-e53671e1eea8"],
+
+Cell[BoxData["\<\"Friday 8 July 2022\"\>"], "Output",
+ CellChangeTimes->{{3.866288655605978*^9, 3.8662886706152267`*^9}},
+ CellLabel->"Out[30]=",ExpressionUUID->"bc54d6c0-b878-4af1-b431-dea326180b6d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DateObject", "[", 
+  RowBox[{"Today", ",", 
+   RowBox[{"DateFormat", "->", "\"\<DateTimeLong\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.866288682793028*^9, 3.866288694520562*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"3491f736-4178-48cd-9619-c5377ccc1138"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\"DateTimeLong\""}], 
+   RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{"2022", ",", "7", ",", "8"}], "}"}], ",", "\"Day\"", ",", 
+       "\"Gregorian\"", ",", "None", ",", "\"SmearedUTC\"", ",", 
+       "\"DateTimeLong\""}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.866288694826909*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"63a7bc8e-e31e-403b-a807-d5651deaaf64"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
 },
 WindowSize->{1141.2, 585.6},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -76,16 +269,65 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 178, 2, 28, "Input",ExpressionUUID->"a03dbef8-be44-408e-a3a2-8f0f7899c195"],
-Cell[761, 26, 734, 19, 42, "Output",ExpressionUUID->"fb2ff630-455e-48d2-b67c-3a0efc30c72a"]
+Cell[580, 22, 159, 3, 67, "Section",ExpressionUUID->"332e2505-8066-4cba-be1f-e4aa080942d1"],
+Cell[CellGroupData[{
+Cell[764, 29, 191, 3, 54, "Subsection",ExpressionUUID->"02f38333-29d3-4ffc-a12d-5c34d1b30f37"],
+Cell[CellGroupData[{
+Cell[980, 36, 178, 2, 28, "Input",ExpressionUUID->"a03dbef8-be44-408e-a3a2-8f0f7899c195"],
+Cell[1161, 40, 734, 19, 42, "Output",ExpressionUUID->"fb2ff630-455e-48d2-b67c-3a0efc30c72a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1532, 50, 188, 2, 28, "Input",ExpressionUUID->"ebbdaa83-25a5-440a-b84e-68013ae33d04"],
-Cell[1723, 54, 191, 3, 81, "Output",ExpressionUUID->"cc718f0c-2f3e-404e-82d2-f12c19a98753"]
+Cell[1932, 64, 188, 2, 28, "Input",ExpressionUUID->"ebbdaa83-25a5-440a-b84e-68013ae33d04"],
+Cell[2123, 68, 191, 3, 32, "Output",ExpressionUUID->"cc718f0c-2f3e-404e-82d2-f12c19a98753"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2363, 77, 186, 3, 54, "Subsection",ExpressionUUID->"b0159a8e-e724-4c29-9ead-c54d4dd9ffec"],
+Cell[CellGroupData[{
+Cell[2574, 84, 229, 3, 28, "Input",ExpressionUUID->"a5407c9c-ea0f-4b9f-8cb7-0dd12890b016"],
+Cell[2806, 89, 164, 2, 32, "Output",ExpressionUUID->"2b8eed7e-8d06-4a63-bf20-75c28e50c0d8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3007, 96, 178, 2, 28, "Input",ExpressionUUID->"7f52d744-5d75-426b-8001-a9000f4dacd6"],
+Cell[3188, 100, 733, 19, 42, "Output",ExpressionUUID->"f4d9edee-b770-4bc0-a855-6149d538d6a0"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3982, 126, 162, 3, 67, "Section",ExpressionUUID->"c599eb5f-184a-4def-a6b4-b5bf55f8c7dc"],
+Cell[CellGroupData[{
+Cell[4169, 133, 175, 3, 54, "Subsection",ExpressionUUID->"8e3f7831-8f7a-4fcd-9483-d96881268dec"],
+Cell[CellGroupData[{
+Cell[4369, 140, 231, 3, 28, "Input",ExpressionUUID->"68a01d67-9d94-4b28-8187-653fb115f8fd"],
+Cell[4603, 145, 171, 2, 32, "Output",ExpressionUUID->"3940783e-73fc-4baa-842c-829b298f9451"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4811, 152, 180, 2, 28, "Input",ExpressionUUID->"e0e0e302-1d36-4ec8-a7e0-605704d6c53f"],
+Cell[4994, 156, 380, 10, 42, "Output",ExpressionUUID->"09c6da70-2af0-472f-9935-ee3d3a8dd95d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5423, 172, 185, 3, 54, "Subsection",ExpressionUUID->"533e28b6-aa16-4584-9205-3931b420fb24"],
+Cell[CellGroupData[{
+Cell[5633, 179, 227, 3, 28, "Input",ExpressionUUID->"9230342f-a65f-4d12-a682-9938d7cf9487"],
+Cell[5863, 184, 163, 2, 32, "Output",ExpressionUUID->"88ab637f-f0bc-4d24-b7dc-77c579bf49e0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6063, 191, 177, 2, 28, "Input",ExpressionUUID->"5beb59b1-a61d-4459-a0bb-3bedf3404578"],
+Cell[6243, 195, 378, 10, 42, "Output",ExpressionUUID->"1a681899-338e-46ed-aadf-069c755016b1"]
+}, Open  ]],
+Cell[6636, 208, 176, 3, 35, "Text",ExpressionUUID->"02baf566-3fbd-438a-8f1e-2cdd58019ec4"],
+Cell[CellGroupData[{
+Cell[6837, 215, 274, 5, 28, "Input",ExpressionUUID->"2c3cea58-cf58-4bca-974c-e53671e1eea8"],
+Cell[7114, 222, 200, 2, 32, "Output",ExpressionUUID->"bc54d6c0-b878-4af1-b431-dea326180b6d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7351, 229, 288, 5, 28, "Input",ExpressionUUID->"3491f736-4178-48cd-9619-c5377ccc1138"],
+Cell[7642, 236, 475, 12, 42, "Output",ExpressionUUID->"63a7bc8e-e31e-403b-a807-d5651deaaf64"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
