@@ -1,0 +1,91 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2625,         81]
+NotebookOptionsPosition[      1930,         60]
+NotebookOutlinePosition[      2331,         76]
+CellTagsIndexPosition[      2288,         73]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData["Now"], "Input",
+ CellChangeTimes->{{3.8662884796616735`*^9, 3.8662884800034847`*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"a03dbef8-be44-408e-a3a2-8f0f7899c195"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\"Fri 8 Jul 2022 13:01:20\"", 
+     StyleBox[
+      RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+        StyleBox[
+         RowBox[{"-", "4"}], NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}], 
+   RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2022", ",", "7", ",", "8", ",", "13", ",", "1", ",", 
+           "20.3497995`9.061135069228452"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", 
+       RowBox[{"-", "4.`"}]}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.8662884803558087`*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"fb2ff630-455e-48d2-b67c-3a0efc30c72a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$DateStringFormat"], "Input",
+ CellChangeTimes->{{3.866288482475206*^9, 3.866288483853193*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"ebbdaa83-25a5-440a-b84e-68013ae33d04"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"DateTimeShort\"\>", "}"}]], "Output",
+ CellChangeTimes->{3.866288485151163*^9},
+ CellLabel->"Out[20]=",ExpressionUUID->"cc718f0c-2f3e-404e-82d2-f12c19a98753"]
+}, Open  ]]
+},
+WindowSize->{1141.2, 585.6},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"2ffc26de-4cbd-4c65-a10a-a6d67f3b96cd"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 178, 2, 28, "Input",ExpressionUUID->"a03dbef8-be44-408e-a3a2-8f0f7899c195"],
+Cell[761, 26, 734, 19, 42, "Output",ExpressionUUID->"fb2ff630-455e-48d2-b67c-3a0efc30c72a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1532, 50, 188, 2, 28, "Input",ExpressionUUID->"ebbdaa83-25a5-440a-b84e-68013ae33d04"],
+Cell[1723, 54, 191, 3, 81, "Output",ExpressionUUID->"cc718f0c-2f3e-404e-82d2-f12c19a98753"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
